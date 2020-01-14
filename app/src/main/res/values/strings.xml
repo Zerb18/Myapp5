@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Myapp5</string>
+    <string name="toast">TOAST</string>
+    <string name="notificacion">NOTIFICACIÓN</string>
+
+    <string name="btntoast">MOSTRAR</string>
+    <string name="desplazamiento_vertical">Desplazamiento Vertical</string>
+    <string name="desplazamiento_horizontal">Desplazamiento Horizontal</string>
+
+    <string name="vertical">Alineación Vertical</string>
+
+        <string name="arriba">ARRIBA</string>
+        <string name="Centro">CENTRO</string>
+        <string name="abajo">ABAJO</string>
+
+    <string name="horizontal">Alineación Horizontal</string>
+
+        <string name="izquierda">IZQUIERDA</string>
+        <string name="centro">CENTRO</string>
+        <string name="derecha">DERECHA</string>
+
+    <string name="btnNotificacion">ENVIAR</string>
+
+    <string name="introduzca_el_texto">Introduzca el texto</string>
+    <string name="introduzca_el_titulo">Introduzca el título</string>
+    <string name="introduzca_el_mensaje">Introduzca el mensaje</string>
+    <string name="cuantos_segundos">¿Cuántos segundos?</string>
+    <string name="Imagenview">imagen</string>
+
+
+</resources>

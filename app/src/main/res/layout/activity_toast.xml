@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".toast">
+
+        <EditText
+            android:id="@+id/edittxtV"
+            android:layout_width="225dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="@string/desplazamiento_vertical"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.063"
+            android:autofillHints="" tools:targetApi="o" />
+
+        <EditText
+            android:id="@+id/edittxtH"
+            android:layout_width="225dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="@string/desplazamiento_horizontal"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.155"
+            android:autofillHints="" tools:targetApi="o" />
+
+        <EditText
+            android:id="@+id/edittxtTitulo"
+            android:layout_width="225dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="@string/introduzca_el_texto"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.245"
+            android:autofillHints="" tools:targetApi="o" />
+
+    <Button
+        android:id="@+id/btnToast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btntoast"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.934" />
+
+        <RadioGroup
+            android:id="@+id/rGroup"
+            android:layout_width="156dp"
+            android:layout_height="113dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.446">
+
+            <RadioButton
+                android:id="@+id/rbup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/arriba" />
+
+            <RadioButton
+                android:id="@+id/rbCenter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Centro" />
+
+            <RadioButton
+                android:id="@+id/rbdown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/abajo" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/txtVertical"
+            android:layout_width="158dp"
+            android:layout_height="33dp"
+            android:text="@string/vertical"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.33" />
+
+        <TextView
+            android:id="@+id/txtHorizontal"
+            android:layout_width="158dp"
+            android:layout_height="33dp"
+            android:text="@string/horizontal"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.64" />
+
+        <RadioGroup
+            android:id="@+id/rGroup2"
+            android:layout_width="168dp"
+            android:layout_height="111dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.795">
+
+            <RadioButton
+                android:id="@+id/rbLeft"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/izquierda" />
+
+            <RadioButton
+                android:id="@+id/rbCentro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/centro" />
+
+            <RadioButton
+                android:id="@+id/rbRight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/derecha" />
+        </RadioGroup>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
